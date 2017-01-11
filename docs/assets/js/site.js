@@ -412,11 +412,11 @@ function f1() {
 
 			// Update footer
 			//$(api.column(3).footer()).html(
-			//	'$' + pageTotal + ' ( $' + total + ' total)'
+			//	'$' + pageTotal + ' Page Total ( $' + total + ' League Total)'
 			//);
 			// Update footer
 			$(api.column(3).footer()).html(
-				'$' + total + ' Total'
+				'$' + total + ' League Total'
 			);
 		}
 	});
