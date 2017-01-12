@@ -6424,9 +6424,16 @@ function f1() {
 			//	'$' + pageTotal + ' Page Total ( $' + total + ' League Total)'
 			//);
 			// Update footer
-			$(api.column(3).footer()).html(
-				'$' + total + ' League Total'
+			$(api.column(2).footer()).html(
+				'Page Total: <br>' + '$' + pageTotal
 			);
+			$(api.column(4).footer()).html(
+				'League Total: <br>' + '$' + total
+
+			);
+
+
+
 		}
 	});
 	/*end DATATABLES*/
@@ -6436,8 +6443,10 @@ function f1() {
 			$(this).text($(this).text().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
 		})
 	}
-	$("th.bg-warning.numbers").digits();
+	$("th.commaFix").digits();
 	/*end FORCE COMMA*/
+
+
 
 }
 

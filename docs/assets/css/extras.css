@@ -1,6 +1,16 @@
 /* CSS Document */
 
 
+/*helper classes*/
+
+.no-pad {
+	padding: 0px !important;
+}
+
+
+/*end helper classes*/
+
+
 /*scroll to top*/
 
 div.back-to-top-parent {
@@ -58,11 +68,11 @@ div#back-to-top {
 		bottom: 35px;
 	}
 	div#back-to-top:hover {
-	width: 54px;
-	height: 54px;
-	right: -2px;
-	bottom: 33px;
-}
+		width: 54px;
+		height: 54px;
+		right: -2px;
+		bottom: 33px;
+	}
 }
 
 
@@ -415,7 +425,7 @@ hr {
 /*BUTTONS*/
 
 .btn {
-	font-family: "proxima-nova-sc-osf-condensed", sans-serif;
+	font-family: sans-serif;
 	margin-top: 15px;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -504,23 +514,28 @@ hr {
 	color: inherit;
 }
 
-.btn-primary, .btn-inverse {
+.btn-primary,
+.btn-inverse {
 	background-color: rgba(20, 25, 30, .8);
 	border: 1px solid rgba(195, 195, 195, 1);
 	color: rgba(195, 195, 195, 1);
 }
 
-.btn-primary:hover, .btn-inverse:hover {
+.btn-primary:hover,
+.btn-inverse:hover {
 	background-color: rgba(55, 55, 55, .8);
 	border: 1px solid rgba(195, 195, 195, 1);
 	color: rgba(225, 225, 225, 1);
 }
 
-.btn-primary:active , .btn-inverse:active {
+.btn-primary:active,
+.btn-inverse:active {
 	background-color: rgba(55, 55, 55, 1);
 	border: rgba(155, 155, 155, .5) solid 1px;
 	color: white;
 }
+
+
 /*
 .btn-primary:hover {
 	background-color: rgba(130, 170, 60, 1);
@@ -875,7 +890,6 @@ h2.porto.title a:focus {
 	#footer-contacts address {
 		display: block;
 	}
-	
 	.absolute-vertical-align {
 		position: relative;
 		padding-top: 15px;

@@ -50,8 +50,8 @@ div.dataTables_wrapper div.dataTables_filter input {
 }
 
 div.dataTables_wrapper div.dataTables_info {
-	padding-top: 8px;
-	white-space: nowrap
+	padding:12px 5px;
+/*	white-space: nowrap*/
 }
 
 div.dataTables_wrapper div.dataTables_paginate {
@@ -61,7 +61,7 @@ div.dataTables_wrapper div.dataTables_paginate {
 }
 
 div.dataTables_wrapper div.dataTables_paginate ul.pagination {
-	margin: 2px 0;
+	margin: 12px 0;
 	white-space: nowrap
 }
 
@@ -161,7 +161,7 @@ div.dataTables_scrollFoot table {
 	div.dataTables_wrapper div.dataTables_filter,
 	div.dataTables_wrapper div.dataTables_info,
 	div.dataTables_wrapper div.dataTables_paginate {
-		text-align: center
+		text-align: left
 	}
 }
 

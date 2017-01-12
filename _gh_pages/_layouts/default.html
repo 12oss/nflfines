@@ -40,9 +40,12 @@ layout: compress
 		{% include navigation.html %}
 	</header>
 	<main class="site-content">
-		<div id="content" class="container-fluid">
-			{{ content }}
+		<div class="col-xs-12 no-pad">
+			<div id="content" class="container-fluid">
+				{{ content }}
+			</div>
 		</div>
+		
 	</main>
 	{% include back-to-top.html %}
 	<footer class="footer">
@@ -52,4 +55,3 @@ layout: compress
 </body>
 
 </html>
-
