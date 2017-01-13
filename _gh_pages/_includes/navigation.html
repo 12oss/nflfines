@@ -6,6 +6,7 @@ a.navbar-brand {
 	font-size: 5rem;
 	letter-spacing: .3rem;
 }
+
 #main-nav {
 	margin: 0px -5px;
 }
@@ -26,13 +27,16 @@ a.navbar-brand {
 	display: inline-block;
 }
 
-
 @media screen and (max-width: 767px) and (min-width: 1px) {
 	.navbar-header {
 		padding: 0px;
 	}
+	.navbar-brand>img {
+		max-width: 60px;
+	}
 	a.navbar-brand {
 		font-size: 3.2rem;
+		line-height: 12px;
 	}
 	.navbar-nav>li {
 		display: block;
@@ -48,8 +52,8 @@ a.navbar-brand {
 				<div class="navbar-header tk-gin">
 					<button data-target="#main-nav" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
 					<a href="{{ site.baseurl }}/" class="navbar-brand">
-					<img src="{{ site.baseurl }}/assets/css/images/logo-150.png"/>NFL Fines
-				</a>
+						<img src="{{ site.baseurl }}/assets/css/images/logo-150.png" />NFL Fines
+					</a>
 				</div>
 				<!-- /.navbar-collapse -->
 			</nav>
