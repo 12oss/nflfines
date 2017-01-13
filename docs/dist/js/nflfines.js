@@ -6447,7 +6447,6 @@ function f1() {
 	/*end FORCE COMMA*/
 
 
-
 }
 
 /*runs everything after page loads*/

@@ -5015,40 +5015,17 @@ textarea.input-group-sm>.input-group-btn>.btn {
 	border-width: 1px 0 0
 }
 
-
-/*
-.navbar-brand {
-	float: left;
-	font-size: 18px;
-	height: auto;
-	line-height: 20px;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 10px;
-}*/
-
-@media (max-width:767px) {
-	.navbar-brand {
-		position: absolute;
-		left: 50%;
-		transform: translateX(-50%);
-		-webkit-transform: translateX(-50%);
-		-moz-transform: translateX(-50%);
-		-ms-transform: translateX(-50%);
-	}
-}
-
 .navbar-brand:focus,
 .navbar-brand:hover {
 	text-decoration: none
 }
 
 .navbar-brand>img {
-	display: block;
-	max-height: 40px;
-	height: 40px;
+	display: inline-block;
+	/* max-height: 40px; */
+	/* height: 40px; */
 	margin-top: -5px;
-	max-width: 130px;
+	max-width: 90px;
 }
 
 @media (min-width:768px) {
